@@ -1,1 +1,9 @@
 @use "~bootstrap/scss/bootstrap.scss" as *;
+@use "~resources/scss/roots.scss" as *;
+
+header{
+    background-color: $headerRed;
+    a.navbar-brand{
+        width: 300px;
+    }
+}

@@ -10,7 +10,7 @@
         {{-- CDN links  --}}
         @yield('add-cdn')
 
-        <title>@yield('page-name', 'Page Title')</title>
+        <title>@yield('page-title', 'Page Title')</title>
 
 
     </head>
