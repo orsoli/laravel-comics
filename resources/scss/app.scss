@@ -7,3 +7,22 @@ header{
         width: 300px;
     }
 }
+
+main{
+    .card-body>a{
+        text-decoration: none;
+        color: black;
+
+        h5:hover{
+            text-decoration: underline;
+            color: $headerRed;
+        }
+
+    }
+    .card{
+
+        img:hover{
+            border: 2px solid gray;
+        }
+    }
+}
