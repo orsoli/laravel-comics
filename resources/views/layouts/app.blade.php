@@ -20,7 +20,6 @@
 
         {{-- Main  --}}
         <main>
-            @include('partials.main-header')
             @yield('main-content')
         </main>
 
