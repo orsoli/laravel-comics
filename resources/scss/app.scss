@@ -25,4 +25,18 @@ main{
             border: 2px solid gray;
         }
     }
+    .latest-features{
+        h1{
+            color: $textGray;
+        }
+
+        .hr{
+            border: 2px solid $textGray;
+        }
+
+        .read-more{
+            background-color: $headerRed;
+            height: 35px;
+        }
+    }
 }

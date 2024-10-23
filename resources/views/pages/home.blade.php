@@ -8,6 +8,7 @@
 
 {{-- Main  --}}
 @section('main-content')
+{{-- main-header section  --}}
 <section class="main-header container my-4">
     <div class="row">
         <div class="col-8">
@@ -31,6 +32,14 @@
             @endforeach
         </div>
     </div>
+</section>
+{{-- Latest feature section   --}}
+<section class="latest-features container">
+    <div class="d-flex justify-content-between">
+        <h1 class="fw-bold">Letest Features</h1>
+        <button class="read-more border-0 text-light px-3">Read More Features</button>
+    </div>
+    <div class="hr my-3"></div>
 </section>
 @endsection
 
