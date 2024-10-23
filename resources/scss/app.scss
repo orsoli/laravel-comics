@@ -20,12 +20,11 @@ main{
 
     }
     .card{
-
         img:hover{
             border: 2px solid gray;
         }
     }
-    .latest-features{
+    .latest-features, .movies{
         h1{
             color: $textGray;
         }
@@ -37,6 +36,10 @@ main{
         .read-more{
             background-color: $headerRed;
             height: 35px;
+        }
+
+        .card-body{
+            height: 150px;
         }
     }
 }

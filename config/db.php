@@ -89,6 +89,34 @@
                 "imgUrl" => "https://www.superherohype.com/wp-content/uploads/sites/4/2022/07/Thunderbolts-logo.jpg?resize=564,376",
                 "type" => "Movie",
             ],
+        ],
+
+        //Comics
+        "features" => [
+            [
+                'id' => 13,
+                'title' => 'Conan the Barbarian #16 Review: Belief and Barbarism',
+                'imgUrl' => 'https://www.superherohype.com/wp-content/uploads/sites/4/2024/10/Conan-the-Barbarian-16-Cover-C-by-Doug-Braithwaite-cropped.jpg?resize=564,376',
+                'type' => 'comics'
+            ],
+            [
+                'id' => 14,
+                'title' => 'Detective Comics #1090 Review: Batman Origin Gains New Twist',
+                'imgUrl' => 'https://www.superherohype.com/wp-content/uploads/sites/4/2024/10/Detective-Comics-1090-cover-by-Tony-Harris-cropped.jpg?resize=564,376',
+                'type' => 'comics'
+            ],
+            [
+                'id' => 15,
+                'title' => 'Batman and Robin: Year One #1 Review',
+                'imgUrl' => 'https://www.superherohype.com/wp-content/uploads/sites/4/2024/10/Batman-and-Robin-1-cover-by-Lee-Weeks.jpg?resize=564,376',
+                'type' => 'comics'
+            ],
+            [
+                'id' => 16,
+                'title' => 'Mystique #1 Review: Spy In Disguise',
+                'imgUrl' => 'https://www.superherohype.com/wp-content/uploads/sites/4/2024/10/Mystique-1-cover-by-Yasmine-Putri-cropped.jpg?resize=564,376',
+                'type' => 'comics'
+            ]
         ]
 
     ];
