@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $navBars = config('db.navBars');
-    $asideMainList = config('db.asideMainList');
-    return view('pages.home', compact('navBars','asideMainList'));
-});
+    $movies = config('db.movies');
+    return view('feed.index', compact('navBars','movies'));
+})-> name('home');
