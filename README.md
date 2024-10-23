@@ -3,3 +3,5 @@
 - Focus on the layout: create a layout file where you insert the common structure of all the web pages (head tags, body tags, ...) potentially including header and footer through two partials. Then create a route to display the list of all comics retrieved from a file placed in the config folder, and enhance everything using Sass. 
 ### Bonus: 
 - Create more institutional pages that share the same layout
+
+### Create a show page for individual comics (or the resource you've decided to implement), linking it via route to the individual items present on the index page.
